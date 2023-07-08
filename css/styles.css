@@ -222,7 +222,7 @@ button:hover, .search-bar img:hover, .user-info img:hover {
 }
 
 .trending > .card li {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .user {
@@ -232,8 +232,8 @@ button:hover, .search-bar img:hover, .user-info img:hover {
 }
 
 .user img {
-    height: 35px;
-    width: 35px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
 }
 
