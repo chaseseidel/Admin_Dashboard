@@ -3,58 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <div class="header"></div>
-    <div class="main-content"></div>
+    <div class="header">
+        <div class="search-bar">
+            <label for="search-field">
+                <img src="./img/search.png" alt="Search icon" class="search-icon">
+            </label>
+            <input type="text" placeholder="Search" class="search-field">
+        </div>
+        <div class="user-info">
+            <img src="./img/notification.png" alt="Bell icon" class="search-icon">
+            <img src="./img/profilepicture.jpg" alt="Profile picture of cute bear" class="profile-picture">
+            <p>Chase Seidel</p>
+        </div>
+        <div class="user-welcome">
+            <img src="./img/profilepicture.jpg" alt="Profile picture of cute bear" class="profile-picture">
+            <div class="greeting">
+                <p id="welcome">Hi there,</p>
+                <p id="user">Chase Seidel (@chaseseidel)</p>
+            </div>
+        </div>
+        <div class="user-buttons">
+            <ul>
+                <li><button>New</button></li>
+                <li><button>Upload</button></li>
+                <li><button>Share</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="projects">
+            <h3>Your Projects</h3>
+            <div class="cards">
+                <div class="project">
+                    <h5>Super Cool Project</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quam asperiores. Repellat, doloremque saepe dignissimos at voluptatum tenetur molestiae neque voluptatibus placeat unde? Suscipit nobis saepe iste, earum voluptatem voluptate.</p>
+                    <div class="icons"><img src="./img/star.png" alt="Star Icon"><img src="./img/eye.png" alt="Eye icon"><img src="./img/download.png" alt="Download icon"></div>
+                </div>
+                <div class="project">
+                    <h5>Less Cool Project</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, cumque? A explicabo assumenda repellat, unde laudantium at quas eius optio cum aliquam, id consequatur, maxime earum sunt quisquam dicta sint?</p>
+                    <div class="icons"><img src="./img/star.png" alt="Star Icon"><img src="./img/eye.png" alt="Eye icon"><img src="./img/download.png" alt="Download icon"></div>
+                </div>
+                <div class="project">
+                    <h5>Impossible App</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cupiditate sint impedit officiis deserunt odit magnam reprehenderit assumenda accusamus placeat quasi sapiente, eum eveniet totam dolorum neque sed facilis sit.</p>
+                    <div class="icons"><img src="./img/star.png" alt="Star Icon"><img src="./img/eye.png" alt="Eye icon"><img src="./img/download.png" alt="Download icon"></div>
+                </div>
+                <div class="project">
+                    <h5>Easy Peasy App</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi neque corporis illum deleniti veritatis, assumenda repudiandae voluptates ab dicta nostrum. Sit reiciendis magni quo repellendus enim rerum. Sapiente, cumque.</p>
+                    <div class="icons"><img src="./img/star.png" alt="Star Icon"><img src="./img/eye.png" alt="Eye icon"><img src="./img/download.png" alt="Download icon"></div>
+                </div>
+                <div class="project">
+                    <h5>Ad Blocker</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis dicta suscipit possimus temporibus nulla officiis delectus cumque maiores id voluptates? Provident laboriosam dignissimos dolores excepturi tenetur laborum labore, rerum est.</p>
+                    <div class="icons"><img src="./img/star.png" alt="Star Icon"><img src="./img/eye.png" alt="Eye icon"><img src="./img/download.png" alt="Download icon"></div>
+                </div>
+                <div class="project">
+                    <h5>Money Maker</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fuga quasi sapiente quaerat labore laboriosam, repellat totam deleniti repudiandae possimus hic sit porro tenetur incidunt reprehenderit minus veritatis eum ut!</p>
+                    <div class="icons"><img src="./img/star.png" alt="Star Icon"><img src="./img/eye.png" alt="Eye icon"><img src="./img/download.png" alt="Download icon"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-side">
+            <div class="announcements">
+                <h3>Announcements</h3>
+                <ul class="card">
+                    <li class="announcement">
+                        <h5>Site Maintenance</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia omnis vitae voluptatibus sint cum quae, autem fugiat non dignissimos reiciendis voluptas repellat minima quod sunt architecto eaque veniam aliquam inventore.</p>
+                    </li>
+                    <li class="announcement">
+                        <h5>Community Share Day</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veritatis laborum sint obcaecati odit provident, repellendus maxime voluptate nemo. Pariatur maiores incidunt doloribus quidem quos velit adipisci similique sequi impedit.</p>
+                    </li>
+                    <li class="announcement">
+                        <h5>Updated Privacy Policy</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt quibusdam recusandae maxime rerum, sint maiores eligendi atque inventore dolorum explicabo earum alias nam doloribus, doloremque dignissimos laborum quaerat exercitationem reiciendis.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="trending">
+                <h3>Trending</h3>
+                <ul class="card">
+                    <li class="user">
+                        <img src="" alt="">
+                        <div class="username">
+                            <h6>@tegan</h6>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </li>
+                    <li class="user">
+                        <img src="" alt="">
+                        <div class="username">
+                            <h6>@morgan</h6>
+                            <p>No Traffic Maker</p>
+                        </div>
+                    </li>
+                    <li class="user">
+                        <img src="" alt="">
+                        <div class="username">
+                            <h6>@katie</h6>
+                            <p>Life Changing App</p>
+                        </div>
+                    </li>
+                    <li class="user">
+                        <img src="" alt="">
+                        <div class="username">
+                            <h6>@mike</h6>
+                            <p>Data Collector</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <nav class="sidebar">
         <div class="logo">
-            <img src="" alt="">
+            <img src="./img/dashboard.png" alt="Dashboard logo">
             <p>Dashboard</p>
         </div>
         <div class="primary-links">
             <ul>
                 <li>
-                    <img src="" alt="">
-                    <p>Home</p>
+                    <img src="./img/home.png" alt="Home icon">
+                    <a href="/">Home</a>
                 </li>
                 <li>
-                    <img src="" alt="">
-                    <p>Profile</p>
+                    <img src="./img/profile.png" alt="Profile icon">
+                    <a href="/">Profile</a>
                 </li>
                 <li>
-                    <img src="" alt="">
-                    <p>Messages</p>
+                    <img src="./img/messages.png" alt="Message icon">
+                    <a href="/">Messages</a>
                 </li>
                 <li>
-                    <img src="" alt="">
-                    <p>History</p>
+                    <img src="./img/history.png" alt="History icon">
+                    <a href="/">History</a>
                 </li>
                 <li>
-                    <img src="" alt="">
-                    <p>Tasks</p>
+                    <img src="./img/tasks.png" alt="Tasks icon">
+                    <a href="/">Tasks</a>
                 </li>
                 <li>
-                    <img src="" alt="">
-                    <p>Communities</p>
+                    <img src="./img/communities.png" alt="Communities icon">
+                    <a href="/">Communities</a>
                 </li>
             </ul>
         </div>
         <div class="secondary-links">
             <ul>
                 <li>
-                    <img src="" alt="">
-                    <p>Settings</p>
+                    <img src="./img/settings.png" alt="Settings icon">
+                    <a href="/">Settings</a>
                 </li>
                 <li>
-                    <img src="" alt="">
-                    <p>Support</p>
+                    <img src="./img/support.png" alt="Support icon">
+                    <a href="/">Support</a>
                 </li>
                 <li>
-                    <img src="" alt="">
-                    <p>Privacy</p>
+                    <img src="./img/privacy.png" alt="Privacy icon">
+                    <a href="/">Privacy</a>
                 </li>
             </ul>
         </div>
